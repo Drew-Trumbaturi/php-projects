@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: rgb(97, 47, 102);
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+header div {
+  padding: 1.2rem;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: #eee;
+}
+
+form {
+  margin: auto;
+  padding: 10px;
+}
+
+.form-container {
+  margin: auto;
+  max-width: 600px;
+}
+
+input,
+textarea {
+  margin: 4px;
+  padding: 8px;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  font-size: large;
+}
